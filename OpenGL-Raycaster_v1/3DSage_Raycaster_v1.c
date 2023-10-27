@@ -7,11 +7,10 @@
 #include <math.h>
 
 //-----------------------------MAP----------------------------------------------
-#define mapX  8      //map width
-#define mapY  8      //map height
-#define mapS 64      //map cube size
-int map[]=           //the map array. Edit to change level but keep the outer walls
-{
+#define mapX  8//map width
+#define mapY  8//map height
+#define mapS 64//map cube size
+int map[]= {//the map array. Edit to change level but keep the outer walls
  1,1,1,1,1,1,1,1,
  1,0,1,0,0,0,0,1,
  1,0,1,0,0,0,0,1,
